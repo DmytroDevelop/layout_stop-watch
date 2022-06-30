@@ -1,0 +1,47 @@
+.clock {
+  &__twelve {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 30%;
+    transform: translate(-50%, 10%);
+  }
+    
+  &__three {
+    position: absolute;
+    bottom: 50%;
+    right: 0%;
+
+    font-size: 26px;
+
+    border-radius: 30%;
+    background-color: white;
+    transform: translate(-10%, 50%);
+  }
+  
+  &__six {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+
+    font-size: 24px;
+
+    border-radius: 30%;
+    background-color: white;
+    transform: translate( 50%, -10%);
+  }
+  
+  &__nine {
+    position: absolute;
+    bottom: 50%;
+    left: 0%;
+    
+    font-size: 26px;
+    
+    border-radius: 30%;
+    background-color: white;
+    transform: translate(10%, 50%);
+  }
+}
